@@ -17,15 +17,15 @@ body{
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 15px 100px;
 }
 
-ul li {
+.top-menu li {
     list-style: none;
     margin: 0 10px;
     text-transform: uppercase;
-    font-family: "Open sans", sans-serif;
+    font-family: 'Open sans', sans-serif;
     font-weight: 700;
 }
 
@@ -43,7 +43,7 @@ a {
     color: var(--button-color);
     text-transform: uppercase;
     font-size: 0.875rem;
-    font-family: "Open sans", sans-serif;
+    font-family: 'Open sans', sans-serif;
     background-color: #fff;
     font-weight: 700;
 }
@@ -54,13 +54,13 @@ a {
     transition: all 0.4s;
 }
 
-ul {
+.top-menu {
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
 }
 
-
+/*   desde aqui             */
 .dropdown {
     display: inline-block;
     position: relative;
@@ -72,6 +72,7 @@ ul {
     overflow: auto;
     box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
     padding: 5px;
+    z-index: 5;
 }
 
 .dropdown:hover .dropdown-content {
@@ -89,6 +90,7 @@ ul {
 .dropdown-content a:hover {
     color: #ff556e;
 }
+/*     hasta aqui        */
 
 .top-menu a:hover{
     color: #ff556e;
@@ -102,11 +104,15 @@ ul {
 
 h1 {
     text-align: center;
+    font-size: 64px;
+    opacity: 0.8;
 }
 
 .mobile-landing__p {
-    width: 40%;
+    width: 60%;
     text-align: center;
+    font-weight: 550;
+    opacity: 0.6;
     justify-content: center;
     margin: 0px auto 2rem auto ;
 }
@@ -126,7 +132,6 @@ h1 {
     border: 2px solid #ff556e;
     font-size: 14px;
     font-weight: 700;
-
     border-radius: 28px;
     background-color: #ff556e;
 }
@@ -135,6 +140,11 @@ h1 {
     background-color: #fff;
     border: 2px solid #ff556e;
     color: #ff556e;
+}
+
+/* Correccion icono apple boton download */
+.button-download:hover .button-download__icon {
+    stroke: #ff556e;
 }
 
 .button-download {
@@ -159,19 +169,34 @@ h1 {
 
 .container-icons-middle {
     display: flex;
+    justify-content: space-evenly;
 }
 
-.container-icons-middle__img img{
+.container-icons-middle__img {
+    align-self: center;
     width: 65px;
-    height: 120px;
-    /* max-width: 250px;
-    max-height: 250px; */
+    height: 65px;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 
 .container-icons-middle__icon {
     display: flex;
+    width: 120px;
+    height: 120px;
     flex-direction: column;
-    margin: 0 auto;
     background-color: #ebe7fa;
     border-radius: 50%;
+
+}
+
+.container-middle {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.icons-middle__text {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
 }
