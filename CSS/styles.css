@@ -200,3 +200,172 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+
+/* Seccion organize */
+
+.section-organize {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.section-organize__img img {
+    width: 497px;
+    height: 586px;
+}
+
+.section-organize__content {
+    width: 580px;
+    height: 586px;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+    justify-content: center;
+}
+
+.section-organize__content p {
+    line-height: 30px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.section-organize__content ul {
+    line-height: 40px;
+    padding: 15px;
+    list-style: square;
+    opacity: 0.6;
+}
+
+#organize-title {
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+}
+
+.lightbox-button {
+    background-color: #ff556e;
+    border-radius: 28px;
+    border: 2px solid #ff556e;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.lightbox-button:hover {
+    background-color: #fff;
+    color: #ff556e;
+    border: 2px solid #ff556e;
+    transition: all 0.2s;
+}
+
+/* section calendar */
+.section-calendar {
+    display: flex;
+    justify-content: center;
+    background-color: #e8eff6;
+    padding: 128px 0;
+}
+
+.section-calendar__left {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 586px;
+    font-size: 16px;
+    padding: 96px 40px 0 0 ;
+    opacity: 0.6;
+}
+
+.section-calendar__container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.section-calendar__button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;  
+}
+
+.section-calendar__button:hover {
+    background-color: #9a67e7;
+    color: #fff;
+}
+
+.section-calendar__button:hover svg {
+    stroke: #fff;
+}
+
+.section-calendar__image {
+    width: 22px;
+    height: 22px;
+}
+
+.section-calendar__p {
+    padding: 0 5px;
+    font-weight: 700;
+}
+
+.button-schedule {
+    background-color: #9a67e7;
+    color: #fff;
+}
+
+.button-schedule svg {
+    stroke: #fff;
+}
+
+#calendar-image {
+    width: 497px;
+    height: 586px;
+    position: relative;
+}
+
+.check-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.section-calendar__checklist{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.section-calendar__checklist p {
+    margin-left: 10px;
+}
+
+.button-terms {
+    background-color: #ff556e;
+    color: #fff;
+    border-radius: 28px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100px;
+    height: 50px;
+}
+
+.button-privacy {
+    background-color: #e8eff6;
+    border: 2px solid #000;
+    border-radius: 28px;
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container-buttons__privacy {
+    margin-bottom: 50px;
+}
+
+.container-buttons__privacy:hover .button-terms {
+    
+}
