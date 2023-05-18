@@ -366,6 +366,171 @@ h1 {
     margin-bottom: 50px;
 }
 
-.container-buttons__privacy:hover .button-terms {
-    
+.button-terms:hover {
+    background-color: #ebe7fa;
+    border: 2px solid #ff556e;
+    color: #ff556e;
+    transition: all 0.2s;
+}
+
+.button-privacy:hover {
+    background-color: #000000;
+    color: #ebe7fa;
+    transition: all 0.2s;
+}
+
+.section-user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f7fafd;
+}
+
+.check-icon {
+filter: invert(56%) sepia(95%) saturate(370%) hue-rotate(111deg)
+    brightness(96%) contrast(93%);
+}
+
+.section-user {
+    font-size: 26px;
+}
+
+.section-user p {
+    width: 600px;
+}
+
+.section-user h2 {
+    grid-column: 2;
+    font-size: 2.75rem;
+    margin: auto auto;
+}
+
+.section-user__rick {
+    grid-row: 2;
+    text-align: center;
+}
+
+.section-user__rick__p {
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.section-user__rick__img {
+    width: 300px;
+}
+
+.section-user__lynda {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+}
+
+.section-user__lynda__p {
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.section-user__lynda__img {
+    width: 300px;
+}
+
+.section-user__jay {
+    grid-row: 2;
+    text-align: center;
+}
+
+.section-user__jay__p {
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.section-user__jay__img {
+    width: 300px;
+}
+
+.section-user__customers {
+    display: flex;
+    justify-content: center;
+    width: 1110px;
+    height: 111px;
+    margin: 200px auto;
+    align-items: center;
+    grid-row: 3;
+    grid-column: 1 / 4;
+    background-color: #fff;
+}
+
+.section-user__customers__img {
+    width: 175px;
+    height: 35px;
+    padding: 100px;
+    background-color: #fff;
+}
+
+.section-user__frank {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+
+.section-user__frank__p {
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.section-user__frank__img {
+    width: 300px;    
+}
+
+.section-user__rita {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section-user__rita__p {
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.section-user__rita__img {
+    width: 300px;
+}
+
+.section-user__jones {
+    grid-row: 4;
+    text-align: center;
+}
+
+.section-user__jones__p {
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.section-user__jones__img {
+    width: 300px;
+}
+
+.section-numbers {
+    display: flex;
+    justify-content: center;
+    background-color: #e8eff6;
+}
+
+.section-numbers__container {
+    padding: 200px 100px 200px 100px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.section-numbers__container__number {
+    font-size: 4rem;
+    font-weight: 700;
+    opacity: 0.8;
 }
